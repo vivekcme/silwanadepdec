@@ -1,0 +1,540 @@
+.flight-breadcrumb .breadcrumb-item a {
+    color: #BD081C;
+}
+
+
+.flight-breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+    color: #BD081C;
+}
+
+
+
+.select-type {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.select-type label {
+    display: flex;
+    cursor: pointer;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0.375em;
+    margin-right: 15px;
+}
+
+.select-type label:last-child {
+    margin-right: 0;
+}
+
+.select-type label input {
+    position: absolute;
+    left: -9999px;
+}
+
+.select-type label input:checked + span {
+    background-color: #E7F3FD;
+    color: var(--title-color);
+}
+
+.select-type label input:checked + span:before {
+    box-shadow: inset 0 0 0 2px var(--title-color);
+}
+
+.select-type label input:checked + span::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--title-color);
+    left: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.select-type label span {
+    display: flex;
+    align-items: center;
+    padding: 13px 20px;
+    border-radius: 99em;
+    transition: 0.25s ease;
+    color: #757578;
+    font-size: 16px;
+    font-family: var(--bold);
+}
+
+.select-type label span:hover {
+    background-color: #E7F3FD;
+}
+
+.select-type label span:before {
+    display: flex;
+    flex-shrink: 0;
+    content: "";
+    background-color: #fff;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin-right: 0.375em;
+    transition: 0.25s ease;
+    box-shadow: inset 0 0 0 0.125em #757578;
+}
+
+.flight-banner form {
+    border: 1px solid #E5E5E5;
+    border-radius: 20px;
+    padding: 0;
+    margin: 30px 0;
+}
+
+.flight-banner form .form-group {
+    flex-basis: 20%;
+    border-left: 1px solid #E5E5E5;
+    margin: 0;
+    padding: 25px 15px;
+    position: relative;
+}
+
+.flight-banner form .form-group:first-child {
+    border: 0;
+}
+
+.categories-detail-list h5 {
+    color: var(--text-color);
+    font-size: 14px;
+    font-family: var(--semibold);
+    margin-top: 9px;
+}
+
+.flight-banner form .categories-icon {
+    position: relative;
+    top: -10px;
+} 
+
+.flight-banner .catgories-detail {
+    padding: 30px 15px 65px;
+}
+
+
+
+.flight-listing-wrap {
+    background: #FFFFFF;
+    border: 1px solid #DE838D;
+    box-shadow: 0px 5px 10px rgb(0 0 0 / 20%);
+    border-radius: 20px;
+    padding: 30px 50px;
+    margin: 30px 0;
+}
+
+
+.flight-listing-inner p.medium14 {
+    margin: 10px 0;
+}
+
+.flight-listing-wrap .flight-listing-inner .cmn-btn {
+    display: inline-block;
+    padding: 15px 50px;
+    margin-top: 15px;
+}
+
+.flight-listing-main-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.flight-listing-main-details .accordion-button:not(.collapsed) {
+    background: transparent;
+}
+
+
+.flight-listing-main-details .accordion-button {
+    padding: 0;
+    color: var(--title-color);
+    font-family: var(--bold);
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.accordion-button::after {
+    background-image: url('../images/flight/down-arrow.svg');
+    width: 12px;
+    height: 10px;
+    background-size: contain;
+    margin-left: 6px;
+}
+
+.flight-listing-main-details .accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+
+.flight-listing-main-details .accordion-button {
+    border: none;
+    box-shadow: none;
+}
+
+button:focus:not(:focus-visible) {
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+
+
+.layover {
+    padding: 30px 0;
+    position: relative;
+}
+
+.layover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #E5E5E5;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 1000px;
+    z-index: 1;
+}
+
+.layover p {
+    background: #fff;
+    position: relative;
+    z-index: 3;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.filter-inner-main .form-check {
+    align-items: center;
+} 
+
+.filter-wrap .form-check-input:checked + .form-check-label {
+    color: var(--title-color);
+}
+
+.select-travel-class h3 {
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.flight-banner .dropdown-item:focus ,
+.flight-banner .dropdown-item:hover{
+    background: transparent;
+}
+
+.flight-banner .dropdown-menu {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    border: none;
+    padding: 25px 40px;
+    width: 400px;
+}
+
+.flight-details-accordion .accordion-body {
+    margin-top: 20px;
+    border: 1px solid #E5E5E5;
+    padding: 40px !important;
+    border-radius: 20px;
+}
+
+.flight-details-accordion .accordion-body:first-child {
+    margin-top: 40px;
+}
+
+.left-right-arrow {
+    max-width: 32px;
+    right: -11px;
+    background: transparent;
+    border: none;
+    outline: none;
+    top: 50%;
+    padding: 0;
+    transform: translateY(-50%);
+    margin: 0;
+    z-index: 8;
+}
+
+
+.flight-banner .dropdown-menu .dropdown-item {
+    padding: 0;
+}
+
+.categories-detail-list .dropdown-menu .select-type label input + span {
+    background: #fff;
+    padding: 0;
+}
+
+.categories-detail-list .dropdown-menu .select-type label {
+    flex-basis: 44%;
+}
+
+.categories-detail-list .dropdown-menu .select-type label input:checked + span::after {
+    left: 4px;
+}
+
+.categories-detail-list .dropdown-menu .select-type label span {
+    font-size: 13px;
+    font-family: var(--semibold);
+}
+
+.categories-detail-list .dropdown-menu .cmn-btn {
+    padding: 7px 30px;
+    margin-top: 20px;
+}   
+
+.people-counter {
+    display: flex;
+}
+
+.people-counter .input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.people-counter .input-group .medium12 {
+    color: var(--text-color) !important;
+    margin-top: 2px;
+}
+
+.people-counter .input-group .rounded-circle {
+    background: var(--title-color);
+    width: 16px;
+    height: 16px;
+    color: #fff;
+    border: 0 !important;
+    margin: 0; 
+    font-size: 11px;
+    padding: 0;
+}
+
+.btn-group .dropdown-toggle::after {
+    border: 0;
+    background: url(../images/flight/down-arrow.svg) no-repeat;
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.input-group .quantity-field {
+    font-size: 16px;
+    color: var(--title-color);
+    font-family: var(--semibold);
+    height: 100%;
+}
+
+
+
+/* 
+round trip
+*/
+
+.center-border {
+    position: relative;
+}
+
+.center-border::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #E5E5E5;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.checkin-text p {
+    position: relative;
+    top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+responsive css
+*/
+
+
+@media only screen and (max-width: 1400px) {
+    .flight-banner form .form-group {
+        border: 0;
+    }
+} 
+
+
+@media only screen and (max-width: 1200px) {
+    .flight-banner form .form-group {
+        flex-basis: 33%;
+    }
+
+    .left-right-arrow {
+        right: 20px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .flight-banner form .form-group {
+        flex-basis: 50%;
+        padding-left: 50px;
+    }
+
+    
+}
+
+@media only screen and (max-width:767px) {
+    .flight-listing-inner {
+        margin-bottom: 25px;
+    }
+
+    .flight-ticket-details {
+        margin-bottom: 25px;
+    }
+
+    .flight-banner form .form-group {
+        padding: 25px 15px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .people-counter {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .flight-banner .dropdown-menu {
+        width: 300px;
+    }
+
+    .people-counter .input-group {
+        flex-basis: 50%;
+    }
+
+    .categories-detail-list .dropdown-menu .select-type label {
+        flex-basis: 100%;
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

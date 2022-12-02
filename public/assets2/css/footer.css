@@ -1,0 +1,72 @@
+footer {
+  background: var(--secondary-color);
+  padding: 50px 0 0;
+}
+
+.footer-title h4 {
+  font-size: 20px;
+  font-family: var(--bold);
+  margin-bottom: 30px;
+}
+
+
+.footer-logo img {
+  max-width: 250px;
+  margin-bottom: 35px;
+}
+
+.footer-lists {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-lists li {
+  margin-bottom: 30px;
+}
+
+.footer-lists li a {
+  font-family: var(--regular);
+  font-size: 16px;
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-links a {
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+.footer-lists li a:hover {
+  color: #fff;
+}
+
+.social-links a img {
+  object-fit: contain;
+}
+
+.copyright-text {
+  border-top: 1px solid #193E7A;
+  padding: 35px 0;
+} 
+
+.copyright-text p {
+  font-size: 15px;
+  font-family: var(--semibold);
+}
+
+.copyright-text p span {
+  border-bottom: 1px solid #fff;
+}
+
+
+footer .app-download {
+  margin-top: 60px !important;
+}
+
+.first-footer-wrap h4 {
+  margin-bottom: 18px;
+}

@@ -1,0 +1,88 @@
+.entry-form .guest-details-wrapper {
+    padding: 30px 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.entry-form .guest-details-wrapper form select {
+    width: 100%;
+}
+
+.entry-form .guest-details-wrapper form .form-group {
+    margin-right: 0;
+}
+
+.entry-form .guest-details-wrapper form input {
+    width: 100%;
+}
+
+
+.entry-form .title h5.blue-b-24  {
+    margin: 0 0 30px;
+}
+
+.entry-form {
+    margin: 45px 0 100px;
+}
+
+
+.entry-form form h5.blue-b-24  {
+    margin: 30px 0 0;
+}
+
+.entry-form .passport-details {
+    margin-top: 20px;
+}
+
+.entry-form .entry-form-btn {
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+    .guest-details-wrapper form select {
+        margin-bottom: 10px;
+    }
+}

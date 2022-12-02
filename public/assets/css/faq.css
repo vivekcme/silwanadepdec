@@ -1,0 +1,246 @@
+.faq {
+    padding: 80px 0;
+}
+
+.faq .accordion-button::after {
+    display: none;
+}
+
+
+.faq .general-acc .acc {
+    margin: 30px 0;
+    border-radius: 5px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgba(1, 2, 17, 0.1);
+}
+  
+.faq .general-acc .acc-head {
+    font-size: 22px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 35px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.faq .general-acc .arrow {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    background-color: transparent;
+    color: #fff;
+    max-width: 100%;
+}
+  
+.faq .arrow::before,
+.faq .arrow::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transition: all .3s;
+    background-color: var(--title-color);
+    border-radius: 10px;
+}
+  
+.faq .arrow::before {
+    right: 10px;
+    width: 10px;
+    height: 2px;
+    margin-top: -1px;
+    transform: rotate(222deg);
+}
+  
+.faq .arrow::after {
+    right: 3px;
+    width: 10px;
+    height: 2px;
+    margin-top: -1px;
+    transform: rotate(140deg);
+}
+  
+.faq .general-acc .acc-head p {
+    color: var(--text-color);
+    margin-bottom: 0;
+    font-size: 22px;
+    font-family: var(--semibold);
+}
+  
+.faq .general-acc .acc-content {
+    display: none;
+    background: #FFFFFF;
+    border: 1px solid #E0E8EB;
+    box-shadow: 0px 4px 8px #F0F4F8;
+    border-radius: 0px 0px 20px 20px;
+    padding: 30px 35px;
+    border-top: 0;
+}
+
+.faq .general-acc .acc-head.active .arrow::before {
+    transform: rotate(138deg);
+    background-color: #fff;
+    border-radius: 10px;
+}
+  
+.faq .general-acc .acc-head.active .arrow::after {
+    transform:rotate(45deg);
+    background-color: #fff;
+    border-radius: 10px;
+}
+  
+.faq .general-acc .acc-head.active {
+    background: var(--title-color);
+    box-shadow: 0px 4px 8px #F0F4F8;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.faq .general-acc .acc-head.active p {
+    color: #fff;
+}
+
+.faq .faq-categories {
+    box-shadow: 0px 5px 10px rgba(1, 2, 17, 0.1);
+    box-shadow: none;
+    background-color: #fff;
+    position: static;
+}
+
+.faq .faq-categories .categories-list {
+    background-color: #fff;
+    box-shadow: 0px 5px 10px rgba(1, 2, 17, 0.1);
+    margin-bottom: 20px;
+}
+
+.faq .faq-categories .categories-list .active {
+    background: var(--title-color);
+}
+
+.faq .faq-categories .categories-list .active p {
+    color: #fff;
+}
+
+.faq .faq-categories .categories-list-title p {
+    color: var(--title-color);
+    font-size: 20px;
+    font-family: var(--bold);
+}
+
+.faq .general-acc p.italic-text {
+    color: #757578;
+    font-size: 16px;
+    font-family: var(--medium);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+responsive css
+*/
+
+
+@media only screen and (max-width: 576px) {
+    .faq .general-acc .acc-head p {
+        font-size: 16px;
+    }
+
+    .faq .general-acc p.italic-text {
+        font-size: 14px;
+    }
+
+    .faq .general-acc .acc-head {
+        padding: 10px 15px;
+    }
+
+    .faq .general-acc .acc-content {
+        padding: 10px 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

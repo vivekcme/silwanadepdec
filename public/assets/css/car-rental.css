@@ -1,0 +1,275 @@
+.car-rental-image-wra {
+    width: 200px;
+    height: 150px;
+}
+
+.car-rental-image-wra img {
+    object-fit: contain;
+}
+
+.car-rental-wrap .cmn-btn {
+    margin-top: 20px;
+}
+
+.car-rental-payment .transfer-lists {
+    margin-top: 15px;
+}
+
+.pick-up .blue-m14 {
+    text-decoration: underline;
+}
+
+.pick-up li {
+    margin-bottom: 50px !important;
+    padding-left: 25px !important;
+    position: relative;
+}
+
+/* .pick-up li::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background: #757578;
+    top: 6px;
+    left: 0;
+} */
+
+/* .pick-up li::before {
+    content: '';
+    position: absolute;
+    height: 122px;
+    width: 2px;
+    left: 4px;
+    top: 22px;
+    background: #757578;
+} */
+
+.pick-up li:last-child::before {
+    display: none;
+}
+
+.pick-up li p {
+    margin-bottom: 12px;
+}
+
+.pick-up li p:nth-child(2) {
+    margin-bottom: 10px;
+}
+
+.pick-up li:last-child {
+    margin-bottom: 0px !important;
+}
+
+.pick-up {
+    margin-top: 42px;
+}
+
+.brand-car-main-wrapper h4 {
+    font-size: 16px;
+    color: var(--title-color);
+    font-family: var(--semibold);
+    margin-bottom: 0;
+}
+
+.brand-car-main-wrapper > div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0 10px;
+}
+
+.brand-car-main-wrapper > div:first-child span {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-family: var(--bold);
+}
+
+.brand-car-main-wrapper .brand .brand-container {
+    width: 100px;
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 1px solid transparent;
+    margin-right: 20px;
+}
+
+.brand-car-main-wrapper .brand .brand-container:last-child {
+    margin-right: 0;
+}
+
+.brand-car-main-wrapper .brand .brand-container img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+}
+
+.brand-container.selected {
+    border: 1px solid var(--primary-color) !important;
+}
+
+.car-rental form .d-flex {
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    width: 100%;
+} 
+
+
+
+.css-1pahdxg-control {
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    border-color: hsl(0, 0%, 80%);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+
+.transfer.car-rental-payment .transfer-inner-wrap .transfer-wrap {
+    padding: 25px 40px;
+    background: #FFFFFF;
+    border: 0.5px solid #ED1C24;
+    box-shadow: 0px 5px 10px rgb(0 0 0 / 20%);
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.add-pickup span {
+    position: absolute;
+    bottom: 0;
+    color: var(--primary-color);
+    font-size: 14px;
+    font-family: var(--semibold);
+    display: block;
+}
+
+.add-pickup .css-yk16xz-control {
+    padding: 0;
+    border: none;
+}
+
+.add-pickup .css-1pahdxg-control {
+    padding: 0 !important;
+    border: none !important;
+    min-height: 0 !important;
+    box-shadow: none !important;
+}
+
+.css-1hwfws3 {
+    padding: 0 !important;
+}
+
+.css-yk16xz-control {
+    min-height: auto;
+}
+
+.css-tlfecz-indicatorContainer {
+    padding: 0 !important;
+}
+
+.transfer.car-rental-payment .transfer-lists {
+    margin-bottom: 0;
+}
+
+.transfer.car-rental-payment .col-sm-6 .transfer-inner {
+    padding-left: 30px;
+}
+
+.transfer-inner p:last-child {
+    margin-bottom: 0;
+}
+
+.transfer.car-rental-payment .price-summary-wrap.pick-up ul li {
+    display: block !important;
+}
+
+.transfer.car-rental-payment .price-summary-wrap ul {
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+responsive css
+*/
+
+@media only screen and (max-width: 1200px) {
+    .brand-car-main-wrapper .brand {
+        justify-content: center !important; 
+    }
+
+    .brand-car-main-wrapper .brand .brand-container {
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 576px){
+    /* .car-rental-image-wra {
+        width: 100%;
+        height: 150px;
+    }
+    .car-rental-image-wra img {
+        object-fit: cover;
+    } */
+    .bold20 {
+        font-size: 20px;
+        font-family: var(--bold);
+        color: var(--text-color);
+        margin-top: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

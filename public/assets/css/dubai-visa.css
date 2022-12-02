@@ -1,0 +1,638 @@
+.entry-form .guest-details-wrapper {
+    padding: 30px 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.entry-form .guest-details-wrapper form select {
+    width: 100%;
+}
+
+.entry-form .guest-details-wrapper form .form-group {
+    margin-right: 0;
+}
+
+.entry-form .guest-details-wrapper form input {
+    width: 100%;
+}
+
+
+.entry-form .title h5.blue-b-24  {
+    margin: 0 0 30px;
+}
+
+.entry-form {
+    margin: 45px 0 100px;
+}
+
+
+.entry-form form h5.blue-b-24  {
+    margin: 30px 0 0;
+}
+
+.entry-form .passport-details {
+    margin-top: 20px;
+}
+
+.entry-form .entry-form-btn {
+    margin-top: 40px;
+}
+
+
+
+
+.entry-form h4.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.entry-form .name-detail {
+    margin-bottom: 25px;
+}
+
+.name-detail.guest-details-wrapper .form-group {
+    width: 48%;
+}
+
+.name-detail.guest-details-wrapper form > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.name-detail.guest-details-wrapper form button {
+    font-size: 16px;
+    font-family: var(--bold);
+    color: var(--title-color);
+    background: transparent;
+    border: none;
+    margin: 30px 0;
+}
+
+.name-detail.guest-details-wrapper form input[type='submit'] {
+    background: var(--primary-color);
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: var(--bold);
+    border-radius: 10px;
+    transition: 0.5s;
+    border: 1px solid transparent;
+}
+
+.name-detail.guest-details-wrapper form input[type='submit']:hover {
+    background: #FFFFFF;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.name-detail select {
+    color: #757578;
+    font-size: 14px;
+    font-family: var(--medium);
+    padding: 20px 12px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 10px rgb(0 0 0 / 10%) !important;
+    border-radius: 5px;
+    width: 300px;
+}
+
+
+
+.list-of-documents .list-of-documents-img img {
+    max-width: 20px;
+}
+
+
+.visa-type-wrap p span {
+    color: #010211;
+    font-size: 14px;
+    font-family: var(--bold);
+}
+
+.visa-type-wrap p {
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.list-of-documents h6 {
+    font-family: var(--medium);
+    font-size: 14px;
+    color: #010211;
+    margin-bottom: 15px;
+}
+
+.list-of-documents-wrapper > div {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.list-of-documents-wrapper > div:last-child {
+    margin-bottom: 0;
+}
+
+.list-of-documents-text p {
+    margin-bottom: 0;
+}
+
+.list-of-documents-text h4 {
+    color: #010211;
+    font-family: var(--bold);
+    font-size: 14px;
+}
+
+.list-of-documents-text p {
+    color: #757578;
+    font-size: 14px;
+}
+
+.list-of-documents-text {
+    margin-left: 20px;
+    flex-basis: 85%;
+}
+
+.list-of-documents-img {
+    width: 25px;
+    height: 25px;
+}
+
+.list-of-documents-img img {
+    object-fit: contain;
+}
+
+.list-of-documents-wrapper {
+    padding-left: 35px;
+}
+
+.entry-form .name-detail {
+    padding: 35px 30px;
+}
+
+
+.traveller-details-wrap > div {
+    margin-right: 15px;
+}
+
+.traveller-details-wrap > div label {
+    font-family: var(--medium);
+    font-size: 14px;
+    color: #010211;
+}
+
+.traveller-details-wrap > div span {
+    font-family: var(--regular);
+    font-size: 14px;
+    color: #000;
+    margin-top: 10px;
+}
+
+.traveller-details-wrap {
+    margin-bottom: 30px;
+}
+
+.traveller-details-wrap > div{
+    width: 100%;
+    max-width: 150px;
+}
+
+.uploaded-doc-green {
+    color: #008E24 !important;
+    text-transform: capitalize;
+}
+
+/* .traveller-details-wrap > div:nth-child(2) {
+    width: 100%;
+    max-width: 100px;
+}
+
+.traveller-details-wrap > div:nth-child(3) {
+    width: 100%;
+    max-width: 95px;
+} */
+
+.traveller-details-wrap {
+    display: flex;
+}
+
+.traveller-details-wrap span {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: block;
+    padding: 20px 12px;
+}
+
+.dubai-visa-detail {
+    padding: 40px 0;
+}
+
+.passport-upload .form-group > p {
+    font-family: var(--bold);
+}
+
+.dubai-visa-detail h4.title {
+    font-size: 24px;
+}
+
+.dubai-visa-detail .name-detail {
+    margin-bottom: 30px;
+}
+
+.dubai-visa-detail .price-summary p {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    color: #757578;
+    font-family: var(--medium);
+    font-size: 16px;
+}
+
+.dubai-visa-detail .price-summary .total-amount {
+    color: var(--title-color);
+    font-size: 16px;
+    font-family: var(--bold);
+    margin-top: 18px;
+}
+
+.dubai-visa-detail .price-summary  h6 {
+    color: #010211;
+    font-size: 20px;
+    font-family: var(--bold);
+}
+
+.guest-details-wrapper .form-group > p {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-family: var(--semibold);
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+
+.travellers-detail li p {
+    display: flex;
+    margin-bottom: 0;
+    justify-content: space-between;
+}
+
+.travellers-detail li p span img {
+    max-width: 15px;
+    position: relative;
+    top: -1px;
+}
+
+.travellers-detail {
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}
+
+.travellers-detail span {
+    font-size: 12px;
+    font-family: var(--medium);
+    color: var(--title-color);
+}
+
+.travellers-detail li p:first-child {
+    color: #000;
+    font-size: 14px;
+    font-family: var(--semibold);
+}
+
+.travellers-detail ul ul li {
+    flex-basis: 35%;
+    margin-top: 15px;
+}
+
+.travellers-wrap {
+    margin-bottom: 30px;
+}
+
+.visa-main button {
+    width: 100%;
+    padding: 17px 0;
+}
+
+.visa-uploaded-img-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    margin-top: 15px;
+
+}
+
+.visa-uploaded-img-wrap > div {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #eee;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.my-visa-details .travellers-wrap {
+    margin-bottom: 20px;
+}
+
+.visa-uploaded-img-wrap > div img {
+    object-fit: contain;
+}
+
+.name-detail.my-visa-list-wrap p {
+    margin-bottom: 8px;
+}
+
+.name-detail.my-visa-list-wrap > div > div {
+    margin-bottom: 15px;
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.my-visa-list-wrap span.cmn-btn {
+    filter: none;
+}
+
+.name-detail.my-visa-list-wrap {
+    overflow-y: scroll;
+    max-height: 530px;
+}
+
+.name-detail.my-visa-list-wrap h4 {
+    font-family: var(--bold);
+    color: #000000;
+    font-size: 20px;
+}
+
+.my-visa-details h3 {
+    font-family: var(--bold);
+    color: #1E96FC;
+    font-size: 20px;
+}
+
+.travellers-wrap > p {
+    font-family: var(--bold);
+    color: #000;
+    font-size: 16px;
+}
+
+.entry-form #loginModal .cmn-form.login-form .my-visa-details {
+    height: 520px;
+    overflow: hidden scroll;
+    padding: 0 12px;
+    margin-top: 10px;
+}
+
+.entry-form .name-detail.my-visa-list-wrap {
+    margin-top: 50px;
+}
+
+
+.entry-form #loginModal .cmn-form.login-form .my-visa-details::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.entry-form #loginModal .cmn-form.login-form .my-visa-details::-webkit-scrollbar{
+    width: 5px;
+    background-color: #F5F5F5;
+}
+
+.entry-form #loginModal .cmn-form.login-form .my-visa-details::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: var(--primary-color);
+}
+
+.name-detail.my-visa-list-wrap::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.name-detail.my-visa-list-wrap::-webkit-scrollbar{
+    width: 5px;
+    background-color: #F5F5F5;
+}
+
+.name-detail.my-visa-list-wrap::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: var(--primary-color);
+}
+
+.visa-main {
+    top: 0 !important;
+    transform: translate(0) !important;
+}
+
+.react-date-picker__wrapper {
+    border: none !important;
+}
+
+
+.insurance-form .react-date-picker input {
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+
+.insurance-form .react-date-picker {
+    color: #757578;
+    font-size: 14px;
+    font-family: var(--medium);
+    padding: 20px 12px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 10px rgb(0 0 0 / 10%) !important;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.insurance-form .form-group {
+    width: 100%;
+    margin-top: 0 !important;
+}
+
+.insurance-form .form-group input {
+    width: 100%;
+}
+
+.insurance-form .people-counter input {
+    max-width: 100% !important;
+}
+
+.react-date-picker__wrapper button {
+    display: none;
+}
+
+.insurance-payment-main .review-booking-wrapper {
+    padding: 0;
+    box-shadow: none;
+}
+
+.insurance-payment-main .review-booking-wrapper form > .row {
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgb(0 0 0 / 20%);
+    border-radius: 20px;
+    margin: 15px 0;
+    padding: 35px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1800px) {
+    .visa-uploaded-img-wrap > div {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .entry-form .name-detail.my-visa-list-wrap {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .entry-form {
+        margin: 45px 0 45px;
+    }
+
+    .name-detail.guest-details-wrapper form button {
+        margin: 15px 0;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .guest-details-wrapper form select {
+        margin-bottom: 10px;
+    }
+
+    .dubai-visa-detail h4.title {
+        font-size: 18px;
+    }
+
+    .name-detail {
+        padding: 20px;
+    }
+
+    .entry-form .guest-details-wrapper form .form-group {
+        width: 100%;
+    }
+
+    .list-of-documents-wrapper {
+        padding-left: 0;
+    }
+    .name-detail.guest-details-wrapper form > div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .traveller-details-wrap {
+        margin-bottom: 15px;
+    }
+
+    .traveller-details-wrap span {
+        padding: 10px 12px;
+    }
+
+    .visa-uploaded-img-wrap > div {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 497px) {
+    .visa-uploaded-img-wrap > div {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .visa-uploaded-img-wrap > div {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .visa-uploaded-img-wrap > div {
+        width: 75px;
+        height: 75px;
+    }
+
+    .dubai-visa-detail .price-summary p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .visa-uploaded-img-wrap > div {
+        width: 70px;
+        height: 70px;
+    }
+
+    .travellers-detail li p {
+        flex-direction: column-reverse;
+    }
+} 
+
+@media only screen and (max-width: 410px) {
+    .visa-uploaded-img-wrap > div {
+        width: 65px;
+        height: 65px;
+    }
+} 
+
+@media only screen and (max-width: 400px) {
+    .name-detail select {
+        width: 100%;
+    }
+
+    .name-detail.guest-details-wrapper form input[type='submit'] {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 392px) {
+    .visa-uploaded-img-wrap > div {
+        width: 60px;
+        height: 60px;
+    }
+}

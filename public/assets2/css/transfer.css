@@ -1,0 +1,197 @@
+.transfer {
+    margin: 55px 0;
+}
+
+.transfer-wrap {
+    padding: 25px 40px;    
+    background: #FFFFFF;
+    border: 0.5px solid #ED1C24;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.transfer-icon-wrap {
+    width: 25px;
+    height: 25px;
+}
+
+.transfer-icon-wrap img {
+    object-fit: contain;
+    max-width: 17px !important;
+}
+
+.transfer-lists {
+    margin-top: 30px;
+}
+
+.transfer-lists li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.transfer-lists li:last-child {
+    margin-bottom: 0;
+}
+
+.passengers-text p:nth-child(2) {
+    margin-left: 35px;
+    position: relative;
+}
+
+.passengers-text p:nth-child(2)::after {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 50px;
+    background: var(--title-color);
+    position: absolute;
+    left: -13px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.passengers-text {
+    margin-top: 10px;
+}
+
+.transfer-inner .cmn-btn {
+    padding: 15px 70px;
+}
+
+.transfer h4.title {
+    font-size: 20px;
+}
+
+.transfer-inner-wrap .transfer-lists {
+    border-right: 1px solid #BABABB;
+}
+
+.transfer-lists h6.b-b-16 {
+    margin-bottom: 12px;
+}
+
+
+.transfer-inner-wrap .transfer-lists p img {
+    max-width: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+}
+
+.mobile-number-wrap {
+    margin-left: 100px;
+}
+
+.mobile-number-wrap input {
+    width: 198px !important;
+}
+
+.total-pay label input:checked + span::after  {
+    left: 5px;
+}
+
+.total-pay {
+    margin-top: 20px;
+}
+
+.total-pay p.medium12 {
+    padding-left: 24px;
+}
+
+.total-pay > div {
+    margin-bottom: 20px;
+}
+
+.total-pay label span:before {
+    width: 16px;
+    height: 16px;
+}
+
+.total-pay label input:checked + span  {
+    background: transparent;
+}
+
+.total-pay label span:hover {
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+RESPONSIVE CSS
+*/
+
+@media only screen and (max-width: 1400px) {
+    .mobile-number-wrap {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .transfer-inner-wrap .transfer-lists {
+        border: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .transfer-wrap .total-availabity {
+        text-align: left !important;
+        margin-top: 30px;
+    }
+}

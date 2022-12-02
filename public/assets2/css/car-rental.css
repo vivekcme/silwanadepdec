@@ -1,0 +1,156 @@
+.car-rental-image-wra {
+    width: 200px;
+    height: 130px;
+}
+
+.car-rental-image-wra img {
+    object-fit: contain;
+}
+
+.car-rental-wrap .cmn-btn {
+    margin-top: 20px;
+}
+
+.car-rental-payment .transfer-lists {
+    margin-top: 15px;
+}
+
+.pick-up .blue-m14 {
+    text-decoration: underline;
+}
+
+.pick-up li {
+    margin-bottom: 50px !important;
+    padding-left: 25px !important;
+    position: relative;
+}
+
+.pick-up li::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background: #757578;
+    top: 6px;
+    left: 0;
+}
+
+.pick-up li::before {
+    content: '';
+    position: absolute;
+    height: 122px;
+    width: 2px;
+    left: 4px;
+    top: 22px;
+    background: #757578;
+}
+
+.pick-up li:last-child::before {
+    display: none;
+}
+
+.pick-up li p {
+    margin-bottom: 12px;
+}
+
+.pick-up li p:nth-child(2) {
+    margin-bottom: 10px;
+}
+
+.pick-up li:last-child {
+    margin-bottom: 0px !important;
+}
+
+.pick-up {
+    margin-top: 42px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

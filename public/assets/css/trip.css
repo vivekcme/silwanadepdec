@@ -1,0 +1,495 @@
+.booking-icon-wrap {
+    width: 25px;
+    height: 25px;
+}
+
+.booking-icon-wrap img {
+    object-fit: contain;
+}
+
+.booking-wrap {
+    display: flex;
+}
+
+.booking-lists h6 {
+    margin-top: 7px;
+}
+
+.booking-lists {
+    margin-left: 20px;
+}
+
+.booking-main-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.booking-main-wrap:last-child {
+    margin-bottom: 0px;
+}
+
+.detail-btn {
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.1));
+    background: var(--primary-color);
+    border-radius: 5px;
+    padding: 12px 42px;
+    color: #fff;
+    font-size: 16px;
+    font-family: var(--semibold);
+    display: inline-block;
+}
+
+.detail-btn:hover {
+    color: #fff;
+}
+
+.cancel-btn {
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.1));
+    background: #fff;
+    color: var(--primary-color);
+    font-size: 16px;
+    font-family: var(--semibold);
+    border-radius: 5px;
+    padding: 12px 26px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.cancel-btn:hover {
+    color: var(--primary-color);
+}
+
+.booking {
+    padding: 100px 0;
+}
+
+.booking .nav.nav-tabs {
+    background: var(--title-color);
+    padding: 50px 45px 8px;
+    align-items: center;
+}
+
+.main-tab-wrapper {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.booking .nav-tabs .nav-link {
+    color: #fff;
+    opacity: 0.6;
+}
+
+.booking .nav-tabs .nav-link.active {
+    background: var(--title-color);
+    color: #fff;
+    position: relative;
+    opacity: 1;
+
+}
+
+.booking .nav-tabs .nav-link.active::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    left: 0;
+    bottom: 0;
+}
+
+.booking .tab-content {
+    padding: 40px 45px;
+}
+
+.booking .nav-tabs .nav-link {
+    padding: 15px !important;
+    border: none;
+}
+
+.tab-icon-img {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.tab-icon-img img {
+    object-fit: contain;
+}
+
+
+.booking .nav-item {
+    margin-right: 60px;
+}
+
+.cancelled-detail {
+    width: 40px;
+    height: 40px;
+}
+
+.cancelled-detail img {
+    object-fit: contain;
+}
+
+.booking-detail-select select {
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.1));
+    background: #FFFFFF;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    color: var(--title-color);
+    font-family: var(--semibold);
+    font-size: 14px;
+    width: 100%;
+}
+
+.booking-detail-select select option {
+    color: var(--title-color);
+}
+
+.booking-detail-select  {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    max-width: 180px;
+}
+
+.booking-detail-select::after {
+    content: '';
+    position: absolute;
+    background: url('../images/my-trip/down-arrow.svg') center center no-repeat;
+    width: 10px;
+    height: 10px;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-size: contain;
+}
+
+.my-trip-img-wrap {
+    width: 230px;
+    height: 230px;
+}
+
+.my-trip-img-wrap img {
+    object-fit: contain;
+}
+
+.my-trip-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.my-trip-text p {
+    margin: 15px 0 33px;
+}
+
+.my-trip-text {
+    margin-left: 50px;
+}
+
+.all-btn {
+    background: #fff;
+    color: var(--title-color);
+    border: none;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 5px;
+}
+
+.booking-detail-select .dropdown.notification-dropdown button .blue-down-arrow {
+    max-width: 15px;
+}
+
+.booking-detail-select .dropdown.notification-dropdown button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 15px;
+    font-size: 14px;
+    font-family: var(--semibold);
+    color: var(--title-color);
+}
+
+.booking-detail-select .dropdown.notification-dropdown .dropdown-item {
+    padding: 0;
+}
+
+.booking-detail-select .dropdown.notification-dropdown .dropdown-menu {
+    padding: 7px 12px;
+    margin-top: 7px !important;
+}
+
+.booking-detail-select .dropdown.notification-dropdown .dropdown-menu li:last-child {
+    position: static;
+    margin-bottom: 0;
+}
+
+.booking-detail-select .dropdown.notification-dropdown .dropdown-menu li {
+    margin-bottom: 5px;
+}
+
+.booking-detail-select .dropdown.notification-dropdown button:focus {
+    border: none;
+}
+
+
+
+.cancel-detail-booking {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.my-trip-cancel-booking h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-family: var(--bold);
+}
+
+.my-trip-cancel-booking-modal {
+    max-width: 560px !important;
+    padding: 50px 30px 40px;
+}
+
+.my-trip-cancel-booking-modal span {
+    filter: none;
+}
+
+.my-trip-cancel-booking-modal p {
+    color: #757578;
+    font-size: 14px;
+    max-width: 350px;
+}
+
+.yes-btn {
+    background: var(--title-color);
+    border: 1px solid var(--title-color);
+    margin-right: 15px;
+}
+
+.yes-btn:hover {
+    border: 1px solid var(--title-color);
+    color: var(--title-color);
+}
+
+.cancel-confirm-wrap {
+    margin-top: 50px;
+}
+
+.my-trip-cancel p {
+    margin-bottom: 0px;
+}
+
+.my-trip-cancel .col-lg-5 > div {
+    width: 100%;
+    height: 100px;
+}
+
+.my-trip-cancel .col-lg-5 > div img {
+    object-fit: cover;
+}
+
+.my-trip-cancel p {
+    font-size: 14px;
+}
+
+.my-trip-cancel .transfer-lists li {
+    margin-bottom: 5px;
+}
+
+.my-trip-cancel .transfer-lists li:nth-child(1) p ,
+.my-trip-cancel .transfer-lists li:nth-child(2) p {
+    font-family: var(--bold);
+}
+
+#react-select-2-input{
+    box-shadow: none !important;
+}
+
+.css-1s2u09g-control {
+    min-height: 62px !important;
+}
+
+.css-1pahdxg-control {
+    min-height: 62px !important;
+}
+
+
+.css-1s2u09g-control input {
+    box-shadow: none !important;
+}
+
+
+.css-6j8wv5-Input input {
+    box-shadow: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+responsive css
+*/
+
+@media only screen and (max-width: 1400px) {
+    .booking .nav-item {
+        margin-right: 25px;
+    }
+
+    .booking-main-wrap .booking-wrap:first-child {
+        flex-basis: 60%;
+    }
+
+    .booking-main-wrap .booking-wrap:last-child {
+        flex-basis: 40%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .booking .nav-item {
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .booking-main-wrap {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .buttons-wrap {
+        margin-top: 25px;
+    }
+
+    .cancelled-detail {
+        position: absolute;
+        right: 0;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .booking .nav.nav-tabs {
+        justify-content: flex-start;
+    }
+
+    .booking .nav-item {
+        margin-right: 0;
+    }
+
+    .booking {
+        padding: 50px 0;
+    }
+
+    .booking-wrap {
+        width: 90%;
+    }
+
+    .cancelled-detail {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media only screen and (max-width: 515px) {
+    .my-trip-wrap {
+        flex-direction: column;
+    }
+
+    .my-trip-img-wrap {
+        margin-bottom: 25px;
+    }
+
+    .my-trip-text {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 438px) {
+    .cancel-btn {
+        margin-left: 0;
+        margin-top: 20px;
+        max-width: 203px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .detail-btn {
+        max-width: 203px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .booking-lists h5 {
+        font-size: 16px;
+    } 
+
+    .booking .nav-tabs .nav-link.active::after {
+        bottom: -10px;
+    }
+
+    .booking .nav-tabs .nav-link {
+        padding: 0 !important;
+        font-size: 13px;
+    }
+}

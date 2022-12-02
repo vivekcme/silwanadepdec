@@ -1,0 +1,376 @@
+.care-health-main {
+    background: #FFFFFF;
+    border: 0.5px solid var(--primary-color);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 25px 0 40px;
+    padding: 15px 12px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.care-health-main .care-health-wrap {
+    flex-basis: 150px;
+    margin-bottom: 20px;
+}
+
+.care-health-wrap ul li p {
+    margin: 10px 0;
+}
+
+.care-health-wrap ul li h6 {
+    margin-bottom: 10px;
+}
+
+.important-features-wrap ul li h5 {
+    margin: 10px 0 15px;
+}
+
+.important-features-wrap {
+    margin-top: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.important-features {
+    margin-bottom: 40px;
+}
+
+.related-covers-detail ul li p.b-medium-14 {
+    margin: 7px 0;
+}
+
+.related-covers-detail ul li {
+    margin-bottom: 25px;
+}
+
+.related-covers-wrap {
+    margin-bottom: 100px;
+}
+
+.buy-btn {
+    margin: 174px 0 100px;
+}
+
+.insurance-listing-main .transfer-inner .cmn-btn {
+    padding: 15px 45px !important;
+    margin-top: 0px;
+}
+
+
+
+/* .insurance-listing-main .insurance-wrap .transfer-inner:first-child .insurance-wrapper {
+    width: 200px;
+    height: 70px;
+}
+
+.insurance-listing-main .insurance-wrap .transfer-inner:first-child img {
+    object-fit: contain;
+} */
+
+
+.insurance-form .name-detail > .form-group  {
+    width: 100%;
+    max-width: 200px;
+
+}
+
+.name-detail.first-name > .form-group  {
+    width: inherit;
+}
+
+textarea {
+    width: 100%;
+    color: #757578;
+    font-size: 14px;
+    font-family: var(--medium);
+    padding: 20px 12px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 10px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    max-width: 714px;
+    width: 100%;
+}
+
+textarea:focus {
+    border: none;
+    outline: none;
+}
+
+
+.insurance-payment-main {
+    margin: 90px 0 100px;
+}
+
+
+.care-wrap img {
+    max-width: 90px;
+}
+
+.care-wrap {
+    justify-content: flex-start !important;
+    margin: 25px 0 22px;
+}
+
+.care-wrap > img {
+    margin-left: 10px;
+}
+
+.insurance-travellers .people-counter .input-group {
+    width: 22%;
+}
+
+.categories-detail-list .traveller-age-main h5 {
+    font-size: 12px;
+}
+
+.categories-detail-list .traveller-age-main {
+    margin-top: 25px;
+}
+
+.traveller-age-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.traveller-age-main > div {
+    flex-basis: 47%;
+}
+
+.traveller-age-main .dropdown-toggle {
+    background-color: rgba(81, 145, 250, 0.2) !important;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 8px !important;
+    max-width: 80px;
+    width: 100%;
+    text-align: left;
+    margin-top: 9px;
+    margin-bottom: 50px;
+}
+
+.traveller-age-main .dropdown-toggle h5 {
+    color: var(--title-color);
+    font-size: 12px;
+    font-family: var(--semibold);
+    margin-top: 0;
+}
+
+.traveller-age-main .dropdown-toggle::after {
+    right: 8px;
+    width: 11px;
+    height: 11px;
+    top: 52%;
+}
+ 
+
+.traveller-age-main .dropdown-menu.show {
+    width: 60px;
+    padding: 3px 5px;
+    min-width: auto;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.traveller-age-main .dropdown-menu.show li p {
+    font-family: var(--semibold);
+    color: var(--title-color);
+}
+
+.traveller-age-main .dropdown-menu.show li {
+    margin-bottom: 7px;
+}
+
+.traveller-age-main .dropdown-menu.show li:last-child {
+    margin-bottom: 0px;
+}
+ 
+.insurance-form button.cmn-btn.remove-btn {
+    padding: 15px 30px;
+    background-color: var(--primary-color);
+    color: #fff;
+    width: auto;
+    font-size: 16px;
+    filter: none;
+    border-radius: 10px;
+}
+
+.insurance-form button.cmn-btn.remove-btn:hover {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    background: #fff;
+}
+
+.insurance-payment-main .title .cmn-btn {
+    filter: none;
+    padding: 15px 30px;
+}
+
+.insurance-payment-main .title {
+    margin-bottom: 15px;
+}
+
+
+.my-insurance form .form-group {
+    margin-bottom: 15px;
+}
+
+
+.my-insurance-modal {
+    top: 0 !important;
+    transform: translate(0) !important;
+}
+
+.my-insurance-modal {
+    height: 700px;
+    /* overflow-y: scroll; */
+}
+
+
+/* .my-insurance-modal::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+} */
+
+/* .my-insurance-modal::-webkit-scrollbar{
+    width: 5px;
+    background-color: #F5F5F5;
+} */
+
+/* .my-insurance-modal::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: var(--primary-color);
+} */
+ 
+.my-insurance-modal .travellers-detail ul ul li {
+    flex-basis: 50%;
+}
+
+.my-insurance-modal .my-visa-details > div {
+    border: 1px solid #eee;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.my-insurance-modal .my-visa-details > div:last-child {
+    margin-bottom: 0;
+}
+
+.my-visa-details .travellers-wrap {
+    margin-bottom: 0;
+}
+ 
+.my-insurance-modal .my-visa-details > h3 {
+    margin-bottom: 30px;
+}
+
+/* .confirmed-booking  {
+} */
+
+.price-summary-wrap ul li:last-child {
+    margin-bottom: 0;
+}
+
+.insurance-payment-main .cmn-form.login-form  {
+    height: 500px;
+    overflow: hidden scroll;
+}
+
+
+.insurance-payment-main .cmn-form.login-form::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.insurance-payment-main .cmn-form.login-form::-webkit-scrollbar{
+    width: 5px;
+    background-color: #F5F5F5;
+}
+
+.insurance-payment-main .cmn-form.login-form::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: var(--primary-color);
+}
+
+
+/* 
+RESPONSIVE CSS
+*/
+
+
+
+@media only screen and (max-width: 992px) {
+    .insurance-wrap .transfer-inner {
+        flex-basis: 41%;
+        margin-bottom: 17px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .related-covers-wrap {
+        margin-bottom: 50px;
+    }
+    
+    .insurance-payment-main {
+        margin: 50px 0 50px
+    }
+
+    .reserve-btn {
+        padding: 13px 0;
+        font-size: 18px;
+    }
+
+    .buy-btn {
+        margin: 100px 0 ;
+    }
+
+    .insurance-payment-main {
+        margin: 50px 0;
+    }
+
+    .guest-detail-form .cmn-btn {
+        padding: 15px 0;
+        font-size: 18px;
+    }
+}
+
+@media (max-width:576px) {
+
+    .insurance-wrap .transfer-inner {
+        flex-basis: 100%;
+    }
+
+    .text-decoration-underline {
+        text-decoration: underline!important;
+        margin-top: 10px !important;
+    }
+
+    .insurance-payment-main .title .cmn-btn {
+        filter: none;
+        padding: 10px 14px;
+    }
+
+    .blue-b-24 {
+        font-size: 18px;
+    }
+
+    .travellers-detail ul ul li {
+        flex-basis: 100% !important;
+        margin-bottom: 10px !important;
+    }
+
+    .travellers-detail ul.d-flex {
+        flex-wrap: wrap;
+    }
+   
+}
+

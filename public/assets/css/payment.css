@@ -1,0 +1,532 @@
+.payment-banner .categories-list {
+    border-radius: 20px;
+}
+
+.payment-banner {
+    padding: 225px 0 180px;
+    height: 100%;
+}
+
+.banner.payment-banner .container .row .col-lg-12 {
+    height: 100%;
+}
+
+.review-booking-rating > div.review-booking-img-wrap {
+    width: 154px;
+    height: 165px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.review-booking-rating > div.review-booking-img-wrap img {
+    object-fit: cover;
+}
+
+
+.review-booking-rating {
+    display: flex;
+    margin: 0;
+}
+
+
+.review-booking h3 {
+    font-size: 24px;
+}
+
+.review-booking {
+    margin-top: 40px;
+}
+
+
+
+.review-booking-wrapper {
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 15px 0;
+    padding: 35px 30px;
+}
+
+.review-booking-rating .text1 {
+    margin-top: 15px;
+}
+
+.review-booking-rating ul {
+    padding: 0;
+    margin: 0;
+}
+
+.review-booking-rating ul p {
+    margin-left: 0 !important;
+}
+
+.booking-list {
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin: 10px 0 30px;
+}
+
+.check-in-out-list p {
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.check-in-out-list li {
+    margin-bottom: 25px;
+}
+
+.check-in-out-list li:last-child p {
+    margin-bottom: 0;
+}
+
+.check-in-out-list li:last-child {
+    margin-bottom: 0;
+}
+
+.review-booking-rating .check-in-out-list li {
+    margin-bottom: 0;
+}
+
+.guest-details-wrapper form .form-control:focus {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.room-inclusions {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.free-cancellation {
+    color: #2DA771 !important;
+    font-family: var(--semibold);
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.free-cancellation span {
+    margin-left: 12px;
+}
+
+.room-inclusions .row {
+    padding: 22px 30px;
+}
+
+.review-booking-rating .show-more {
+    font-family: var(--bold);
+}
+
+.hotel-info-wrap h5 {
+    font-size: 20px;
+    font-family: var(--bold);
+    color: var(--text-color);
+}
+
+
+
+.hotel-info-wrap ul li {
+    display: flex;
+}
+
+.hotel-info-wrap ul li p {
+    margin-bottom: 12px;
+    flex-basis: 90%;
+    margin-left: 10px;
+}
+
+.red-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50px;
+    background: var(--primary-color);
+    position: relative;
+    top: 6px;
+}
+
+
+.price-summary-wrap {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 25px;
+    margin: 15px 0 40px;
+}
+
+.price-summary-wrap ul {
+    padding: 0;
+}
+
+.price-summary-wrap ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.price-summary-wrap h5 {
+    margin-bottom: 25px;
+}
+
+.price-summary-wrap .b-b-16 {
+    margin-top: 15px;
+} 
+
+.price-summary-wrap .form-group {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price-summary-wrap .form-group input {
+    padding: 0;
+    border: 0;
+    font-size: 14px !important;
+    color: #757578;
+    font-size: var(--medium);
+}
+
+.price-summary-wrap .form-group input:focus {
+    outline: none;
+    border: none;
+}
+
+.price-summary-wrap .form-group input::placeholder {
+    font-size: 14px;
+    color: #757578 !important;
+    font-size: var(--medium);
+}
+
+.reserve-btn {
+    padding: 22px 0;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.guest-details-wrapper form label {
+    display: block;
+    color: var(--text-color);
+    font-size: 14px;
+    font-family: var(--medium);
+    margin-bottom: 10px;
+}
+
+.guest-details-wrapper .name-detail {
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-bottom: 20px;
+}
+
+.guest-details-wrapper form input {
+    color: #757578;
+    font-size: 14px;
+    font-family: var(--medium);
+    padding: 20px 12px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.guest-details-wrapper form select {
+    color: #757578;
+    font-size: 14px;
+    font-family: var(--medium);
+    padding: 22.5px 12px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 5px;
+}
+
+
+
+/* ----------transfer-detils-input-select-css */
+.guest-detail-form-input select{
+    width: 100% !important;
+}
+.guest-detail-form-input input{
+    width: 100% !important;
+}
+/* ------- */
+
+
+
+.guest-details-wrapper form .form-group {
+    margin-right: 10px;
+    margin-top: 12px;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+.add-guest-btn {
+    color: #5191FA;
+    font-size: 14px;
+    font-family: var(--bold);
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.medium20 {
+    color: var(--text-color);
+    font-size: 20px;
+    font-family: var(--medium);
+}
+
+.ticket-details-main-title {
+    margin-bottom: 25px;
+}
+
+.flight-listing-inner h4.bold20 {
+    margin: 10px 0 5px;
+}
+
+.ticket-details-two-lists {
+    position: relative;
+}
+
+.ticket-details-two-lists::after {
+    content: 'BOM (Mumbai) 2h 20m Layover';
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background: #FED5D9;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 14px;
+    font-family: var(--bold);
+    text-align: center;
+    color: #757578;
+    line-height: 30px;
+}
+
+.ticket-details-two-lists > .row:nth-child(2) {
+    margin: 100px 0 0px;
+}
+
+.k-more {
+    color: #5191FA;
+    font-size: 12px;
+    font-family: var(--bold);
+}
+
+.checking-tick .form-check-label {
+    font-size: 14px;
+    color: #757578;
+    font-family: var(--bold);
+}
+
+.checking-tick .form-check-input {
+    border: 1px solid var(--text-color);
+    width: 18px;
+    height: 16px;
+    padding: 8px;
+    top: 4px;
+}
+
+.guest-details-wrapper .checking-tick .form-check-label {
+    color: var(--text-color) !important;
+}
+
+.blue-apply-btn {
+    background: var(--title-color);
+}
+
+
+.hotel-info-wrap .check-in-out-list li {
+    margin-bottom: 0;
+}
+
+.price-summary-wrap ul li p {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+/* 
+new css
+*/
+
+.guest-details-adults .name-detail .form-group:nth-child(1) {
+    max-width: 80px;
+    position: relative;
+}
+
+.guest-details-adults .name-detail .form-group:nth-child(1)::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: url('../images/down-arrow-gray.svg') center center no-repeat;
+    background-size: contain;
+    right: 10px;
+    top: 50%;
+} 
+
+.guest-details-adults .name-detail .form-group:nth-child(1) select {
+    max-width: 80px;
+}
+
+.guest-details-adults .name-detail .form-group {
+    width: 50%;
+}
+
+.guest-details-adults .name-detail {
+    box-shadow: none;
+    padding: 0;
+}
+
+
+.guest-details-adults h5 {
+    color: var(--title-color);
+    font-size: 24px;
+    font-family: var(--bold);
+}
+
+.mobile-num-wrap {
+    padding: 5px 15px;
+}
+
+.guest-detail-form .cmn-btn {
+    margin: 0 !important;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .medium16 {
+        font-size: 14px;
+    }
+
+    .r-b-16 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .guest-details-wrapper form .form-group {
+        width: 100%;
+        margin: 10px 0 0 !important;
+    }
+
+    .guest-details-wrapper form input {
+        width: 100%;
+    }
+
+    .guest-details-wrapper form select {
+        width: 100%;
+    }
+
+    .mobile-number .d-flex {
+        flex-direction: column;
+    }
+
+    .guest-detail-form .name-detail {
+        flex-wrap: wrap;
+    }
+
+    .guest-detail-form .name-detail .form-group {
+        width: 100%;
+    }
+
+    .review-booking-rating {
+        flex-direction: column;
+    }
+}
+
+
+
+@media only screen and (max-width:576px) {
+    .check-in-out-list {
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (max-width:375px){
+    .guest-details-wrapper .name-detail{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

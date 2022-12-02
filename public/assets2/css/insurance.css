@@ -1,0 +1,128 @@
+.care-health-main {
+    background: #FFFFFF;
+    border: 0.5px solid var(--primary-color);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 25px 0 40px;
+    padding: 15px 12px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.care-health-main .care-health-wrap {
+    flex-basis: 150px;
+    margin-bottom: 20px;
+}
+
+.care-health-wrap ul li p {
+    margin: 10px 0;
+}
+
+.care-health-wrap ul li h6 {
+    margin-bottom: 10px;
+}
+
+.important-features-wrap ul li h5 {
+    margin: 10px 0 15px;
+}
+
+.important-features-wrap {
+    margin-top: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.important-features {
+    margin-bottom: 40px;
+}
+
+.related-covers-detail ul li p.b-medium-14 {
+    margin: 7px 0;
+}
+
+.related-covers-detail ul li {
+    margin-bottom: 25px;
+}
+
+.related-covers-wrap {
+    margin-bottom: 100px;
+}
+
+.buy-btn {
+    margin: 174px 0 100px;
+}
+
+.insurance-listing-main .transfer-inner .cmn-btn {
+    padding: 15px 45px !important;
+    margin-top: 0px;
+}
+
+
+
+/* .insurance-listing-main .insurance-wrap .transfer-inner:first-child .insurance-wrapper {
+    width: 200px;
+    height: 70px;
+}
+
+.insurance-listing-main .insurance-wrap .transfer-inner:first-child img {
+    object-fit: contain;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+RESPONSIVE CSS
+*/
+
+
+
+@media only screen and (max-width: 992px) {
+    .insurance-wrap .transfer-inner {
+        flex-basis: 41%;
+        margin-bottom: 17px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .related-covers-wrap {
+        margin-bottom: 50px;
+    }
+
+
+    .reserve-btn {
+        padding: 13px 0;
+        font-size: 18px;
+    }
+
+    .buy-btn {
+        margin: 100px 0 ;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .insurance-wrap .transfer-inner {
+        flex-basis: 100%;
+    }
+} 

@@ -1,0 +1,18 @@
+:root {
+
+    /* colors */
+    --primary-color: #ED1C24;
+    --secondary-color: #00296B;
+    --title-color: #1E96FC;
+    --text-color: #010211;
+
+    /* fonts */
+    --bold: 'Raleway-Bold';
+    --regular: 'Raleway-Regular';
+    --semibold: 'Raleway-SemiBold';
+    --extrabold: 'Raleway-ExtraBold';
+    --medium: 'Raleway-Medium';
+    --black: 'Raleway-Black';
+
+
+}

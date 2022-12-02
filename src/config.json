@@ -1,0 +1,49 @@
+{
+    "userLogin":"user/login",
+    "userRegister":"user/register",
+    "resendOtp":"user/resendVarification",
+    "varifyEmail":"user/varifyEmail",
+    "forgotPassword":"user/forgotPassword",
+    "varifyAndChange":"user/varifyCodeAndChangePassword",
+
+    "getCities":"hotel/getCity",
+    "hotelSearch":"hotel/search",
+    "hotelSearchPrice":"hotel/searchPrice",
+    "hotelDetails":"hotel/detail",
+    "hotelBook":"hotel/book",
+    "selectRoom":"hotel/selectRoom",
+    "cancelHotelBooking":"hotel/cancleBooking",
+    "getCountries":"hotel/getCountry",
+    
+
+    "getSignature":"transport/signature",
+    "getAirHotelData":"transport/getLocationData",
+    "transferSearch":"transport/search",
+    "transferSearchReturn":"transport/searchReturn",
+    "transferBook":"transport/book",
+    "transferReturnBook":"transport/bookReturn",
+    "singleTransferDetail":"transport/bookingDetail",
+    "cancelTransferBooking":"transport/cancelBooking",
+
+    "getAllCars":"cars",
+    "carBook":"cars/car_book",
+    "cancelCarrentBooking":"cars/cancel_Booking",
+
+    "addInsurance":"insurance/addInsurance",
+    "getInsurance":"insurance/myInsurance",
+
+    "getVisa":"visa/getVisa",
+    "applyVisa":"visa/applyVisa",
+    "myVisaBookings":"visa/myVisaBookings",
+    "addVisaDocument":"visa/addVisaDocument",
+
+    "getHotelBookings":"hotel/myBookings",
+    "getTransferBookings":"transport/bookings",
+    "getCarrentBookings":"cars/get_Booking",
+
+    "fetchAirports":"air/getAirports",
+    "flightSearch":"air/search",
+    "flightFareRule":"air/fareRule",
+    "flightFareQuote":"air/fareQuote",
+    "flightBook":"air/book"
+}

@@ -1,0 +1,488 @@
+header {
+    padding: 25px 0px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9998;
+    transition: all 0.5s;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    border: 1px solid #fff;
+    border-top: 0;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.4);
+}
+
+.nav_top{
+    background-color: var(--primary-color);
+    box-shadow: 0 10px 20px -10px rgb(43,169,225,0.2);
+}
+
+.navbar-toggler-icon {
+    width: auto;
+    height: auto;
+}
+
+.navbar-toggler {
+    padding: 0;
+}
+
+header.scrollUp {
+    transform: translateY(-160px);
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-collapse .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    font-family: var(--semibold);
+    text-transform: capitalize;
+    padding: 0;
+    margin-left: 45px;
+    position: relative;
+}
+
+.navbar-collapse .navbar-nav .nav-item:first-child .nav-link {
+    margin-left: 0;
+}
+
+.navbar-collapse .navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 3px;
+    background-color: var(--btn-color);
+    bottom: -5px;
+    left: 0;
+    transition: 0.7s;
+    border-radius: 5px;
+}
+
+.navbar-collapse .navbar-nav .nav-link:hover::after {
+    width: 50%;
+}
+
+.navbar-collapse .navbar-nav .nav-link:hover {
+    color: var(--secondary-color);
+}
+
+.navbar-brand img {
+    max-width: 250px;
+}
+
+.estimate-wrap {
+    margin-left: 30px;
+}
+
+.for-mobile {
+    display: none;
+}
+
+
+.login-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.login-icon img {
+    object-fit: contain;
+}
+
+
+.navbar-collapse > div {
+    margin-left: 15px;
+}
+
+.navbar-collapse > div:first-child {
+    margin-left: 0;
+}
+
+
+
+
+
+/* 
+cmn-form
+*/
+
+.cmn-form h2 {
+    font-size: 32px;
+    font-family: var(--extrabold);
+    margin-bottom: 45px;
+}
+
+.cmn-form {
+    padding: 70px 70px 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    position: relative;
+}
+
+.modal-content {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.btn-close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: #181828;
+    opacity: 1;
+}
+
+.cmn-form label {
+    font-size: 14px;
+    font-family: var(--medium);
+    color: var(--text-color);
+    display: block;
+    margin-bottom: 8px;
+}
+
+.cmn-form .form-group {
+    margin-bottom: 20px;
+}
+
+.cmn-form input {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 20px 12px;
+}
+
+.cmn-form input::placeholder {
+    font-size: 14px;
+    font-family: var(--medium);
+    color: #757578;
+} 
+
+
+#loginModal .modal-dialog,
+#signup-Modal .modal-dialog,
+#reset-password-Modal .modal-dialog,
+#reset-confirm-Modal .modal-dialog {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    max-width: 580px;
+}
+
+.forgot-pass {
+    color: #1E96FC;
+    font-size: 14px;
+    font-family: var(--semibold);
+}
+
+.form-btn {
+    background: var(--primary-color) !important;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: none !important;
+    filter: none;
+    border: 1px solid var(--primary-color) !important;
+}
+
+.form-btn:hover {
+    color: var(--primary-color) !important;
+    background-color: #fff !important;
+    border: 1px solid var(--primary-color) !important;
+}
+
+.already-member {
+    color: #8B8B93;
+    font-size: 14px;
+    font-family: var(--semibold);
+}
+
+.already-member a {
+    color: #355EE7;
+    font-size: 14px;
+    font-family: var(--semibold);
+}
+
+
+
+
+
+
+.form-check {
+    display: flex;
+    padding: 0;
+}
+
+
+.form-check .form-check-input {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    position: relative;
+    float: none;
+    box-shadow: none;
+    background-color: #fff;
+    border: 1px solid #355EE7;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+form .form-group {
+    margin-top: 11px;
+}
+
+.form-check-input:checked {
+    background-color: #355EE7;
+}
+
+.form-check label {
+    color: #8B8B93;
+    font-size: 12px;
+    font-family: var(--regular);
+    margin-top: 3px;
+}
+
+
+
+
+
+.notification-dropdown .dropdown-toggle::after {
+    display: none;
+} 
+
+.notification-dropdown .dropdown-menu[data-bs-popper] {
+    left: inherit;
+    right: 0;
+    padding: 0;
+}
+
+.dropdown.notification-dropdown .cmn-btn {
+    padding: 8px 13px;
+}
+
+.dropdown-menu.show {
+    padding: 0;
+}
+
+.notification-dropdown li:last-child {
+    position: fixed;
+    bottom: 0;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+responsive css
+*/
+
+
+
+@media only screen and (max-width:1400px) {
+    .navbar-collapse .navbar-nav .nav-link {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    .for-mobile {
+        display: block;
+    }
+
+    .estimate-wrap {
+        display: none;
+    }
+
+    .estimate-btn {
+        max-width: 30px;
+    }
+
+    .navbar-nav {
+        margin-right: 18px;
+    }
+
+    .navbar-collapse .navbar-nav .nav-link {
+        margin-left: 18px;
+    }
+
+    /* header .cmn-btn {
+        padding: 20px;
+    } */
+
+    /* .serving-wrap {
+        width: 20% !important;
+    } */
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar-collapse {
+        background-color: #effbff;
+        z-index: 9;
+        padding: 20px;
+    }
+
+    .hotel-detail-img-inner {
+        max-width: 100% !important;
+        height: 525px !important;
+    }
+
+    .navbar-collapse .navbar-nav .nav-link {
+        margin: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .keys {
+        max-width: 96px !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .cmn-form {
+        padding: 30px !important;
+    }
+
+    .cmn-form input {
+        padding: 15px 12px;
+    }
+
+    .cmn-form h2 {
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+
+    .btn-close {
+        top: 10px;
+        right: 10px;
+    }
+}

@@ -1,0 +1,940 @@
+.transfer {
+    margin: 55px 0;
+}
+
+.transfer-wrap {
+    padding: 25px 40px;    
+    background: #FFFFFF;
+    border: 0.5px solid #ED1C24;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.transfer-icon-wrap {
+    width: 25px;
+    height: 25px;
+}
+
+.transfer-icon-wrap img {
+    object-fit: contain;
+    max-width: 17px !important;
+}
+
+.transfer-lists {
+    margin-top: 30px;
+    padding: 0;
+}
+
+
+.transfer-lists li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.transfer-lists li:last-child {
+    margin-bottom: 0;
+}
+
+.passengers-text p:nth-child(2) {
+    margin-left: 35px;
+    position: relative; 
+}
+
+.passengers-text p:nth-child(2)::after {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 50px;
+    background: var(--title-color);
+    position: absolute;
+    left: -13px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.passengers-text {
+    margin-top: 10px;
+}
+
+.transfer-inner .cmn-btn {
+    padding: 15px 70px;
+}
+
+.transfer-inner 
+
+.transfer h4.title {
+    font-size: 20px;
+}
+
+.transfer-inner-wrap .transfer-lists {
+    border-right: 1px solid #BABABB;
+}
+
+.transfer-lists h6.b-b-16 {
+    margin-bottom: 12px;
+}
+
+.transfer-lists li p {
+    margin: 0;
+}
+
+.transfer-inner-wrap .transfer-lists p img {
+    max-width: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+}
+
+/* .mobile-number-wrap {
+    margin-left: 100px;
+} */
+
+.mobile-number-wrap input {
+    width: 198px !important;
+}
+
+.total-pay label input:checked + span::after  {
+    left: 5px;
+}
+
+.total-pay {
+    margin-top: 20px;
+}
+
+.total-pay p.medium12 {
+    padding-left: 24px;
+}
+
+.total-pay > div {
+    margin-bottom: 20px;
+}
+
+.total-pay label span:before {
+    width: 16px;
+    height: 16px;
+}
+
+.total-pay label input:checked + span  {
+    background: transparent;
+}
+
+.total-pay label span:hover {
+    background-color: transparent;
+}
+
+
+.number-vehicle-wrapper{
+    display: flex;
+}
+
+
+.transfer-inner .total-availabity {
+    text-align: right !important;
+}
+
+.transfer-inner.car-rental-wrap .total-availabity .cmn-btn {
+    padding: 15px 65px !important;
+}
+
+
+.transfer .transfer-inner-wrap .transfer-wrap {
+    padding: 0;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.name-detail,
+.drop-off-address {
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 15px 30px 30px;
+}
+
+.pickup-address {
+    background: #FFFFFF;
+    /* box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2); */
+    border-radius: 20px;
+}
+
+.mobile-number-wrap .css-1s2u09g-control {
+    max-width: 100px;
+}
+
+.mobile-number-wrap .css-6j8wv5-Input input {
+    box-shadow: none !important;
+}
+
+.mobile-number-wrap .css-b62m3t-container {
+    margin-right: 10px;
+}
+
+.transfer-inner-wrap h6 {
+    color: var(--title-color);
+    font-size: 20px;
+    font-family: var(--bold);
+}
+
+.pickup-address input {
+    box-shadow: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    background: #FFFFFF !important;
+    border-radius: 20px !important;
+    box-shadow: none !important;
+}
+
+.pickup-address {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+.guest-detail-form .cmn-btn {
+    padding: 22px 0;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-top: 30px !important;
+    width: 100%;
+    display: block;
+}
+
+
+.price-summary-wrap.pick-up ul li img {
+    max-width: 16px;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.price-summary-wrap.pick-up ul {
+    padding: 0 !important;
+}
+
+.price-summary-wrap.pick-up {
+    margin-top: 20px !important;
+}
+
+.price-summary-wrap.pick-up ul li {
+    display: flex !important;
+    justify-content: flex-start !important;
+    padding: 0 !important;
+    margin-bottom: 20px !important;
+    align-items: flex-start !important;
+}
+
+.pickup-address {
+    margin-bottom: 30px;
+}
+
+
+.drop-off-address .form-group:nth-child(1) input {
+    width: 100%;
+}
+
+
+.guest-details-wrapper form .pickup-address input {
+    box-shadow: 0px 3px 10px rgb(0 0 0 / 10%) !important;
+    border-radius: 5px !important;
+}
+.guest-details-wrapper form .pickup-address{
+    padding: 15px 30px 30px;
+}
+
+.selected {
+    background: rgba(237, 28, 36, 0.08);
+}
+
+
+
+/* 
+transfer-detail-modal-css
+*/
+
+.transfer-booking-details-main h4 {
+    font-size: 24px;
+    font-family: var(--extrabold);
+    margin-bottom: 30px;
+    color: #181828;
+}
+
+.transfer-booking-details-main h6 {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.transfer-detail-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.transfer-detail-wrapper .booking-img-wrap {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(33, 153, 248, 0.12);
+    box-shadow: 0px 4px 11px rgba(33, 153, 248, 0.27);
+}
+
+.transfer-detail-wrapper .booking-img-wrap img {
+    object-fit: cover;
+}
+
+.cmn-box {
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+}
+
+p.black-medium-16 {
+    font-family: var(--medium);
+    font-size: 16px;
+    color: #000;
+}
+
+p.black-medium-12 {
+    font-family: var(--medium);
+    font-size: 12px;
+    color: #000;
+}
+
+p.black-reg-10 {
+    font-family: var(--regular);
+    font-size: 10px;
+    color: #000;
+}
+
+.transfer-detail-wrapper p span {
+    color: var(--title-color);
+    font-family: var(--medium);
+}
+
+.transfer-detail-wrapper p span img {
+    max-width: 10px;
+}
+
+.transfer-detail-wrapper p  {
+    margin-bottom: 0;
+}
+
+.transfer-detail-wrapper h6 {
+    margin-bottom: 6px;
+}
+
+.booking-img-wrap {
+    margin-right: 13px;
+}
+
+.transfer-booking-detail-wrap {
+    margin-bottom: 30px;
+}
+
+.pickup-detail-wrap .transfer-detail-wrapper h6 {
+    color: var(--title-color);
+    font-size: 12px;
+    font-family: var(--semibold);
+    margin-bottom: 0;
+}
+
+.pickup-detail-wrap .transfer-detail-wrapper h5 {
+    color: var(--title-color);
+    font-size: 14px;
+    font-family: var(--semibold);
+    margin-bottom: 0;
+}
+
+.pickup-detail-wrap .transfer-detail-wrapper {
+    align-items: flex-start;
+}
+
+.pickup-detail-wrap .transfer-detail-wrapper p {
+    margin-bottom: 10px;
+}
+
+.pickup-detail-wrap .transfer-detail-wrapper p:last-child {
+    margin-bottom: 0;
+}
+
+.pickup-detail-wrap .transfer-detail-wrapper > div:last-child > div {
+    margin-bottom: 10px;
+}
+
+.pickup-detail-wrap .transfer-detail-wrapper > div:last-child > div:last-child {
+    margin-bottom: 0;
+}
+
+.pickup-detail-wrap .transfer-detail-wrapper > div:first-child {
+    margin-right: 10px;
+}
+
+.pickup-detail-wrap .transfer-detail-wrapper > div:first-child img {
+    max-width: 18px;
+}
+
+.transfer-booking-detail-wrap.pickup-detail-wrap.drop-off-detail .transfer-detail-wrapper h5 {
+    color: #000;
+    font-size: 14px;
+    font-family: var(--semibold);
+    margin-bottom: 10px;
+}
+
+.transfer-booking-detail-wrap.pickup-detail-wrap p a {
+    font-family: var(--semibold);
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--title-color);
+}
+
+.drop-off-detail .transfer-detail-wrapper > div > div {
+    margin-bottom: 20px !important;
+}
+
+/* .drop-off-detail .transfer-detail-wrapper > div > div:last-child {
+    margin-bottom: 0px !important;
+} */
+
+.transfer-detail-wrapper .d-flex.align-items-start {
+    margin-bottom: 25px;
+}
+
+.transfer-detail-wrapper .d-flex.align-items-start:last-child {
+    margin-bottom: 0;
+}
+
+.transfer-detail-wrapper .d-flex.align-items-start > div:first-child img {
+    max-width: 16px;
+    position: relative;
+    top: -5px;
+    margin-right: 15px;
+}
+
+.traveller-details-wrap h4 {
+    font-family: var(--semibold);
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.req-cancel-btn {
+    width: 100%;
+    text-align: center;
+    padding: 18px;
+    box-shadow: none;
+    filter: none;
+}
+
+.cancel-1 {
+    background: #E7FFED;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.cancel-1 p {
+    color: #008E24;
+    font-size: 14px;
+    font-family: var(--semibold);
+    margin: 0;
+}
+
+.cancel-2 {
+    background: #FFF5F4;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.cancel-2 p {
+    color: #FF3B30;
+    font-size: 14px;
+    font-family: var(--semibold);
+    margin: 0;
+}
+
+.cancellation-policy-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cancellation-policy-wrap .cancellation-policy-inner {
+    flex-basis: 25%;
+    margin-right: 30px;
+}
+
+
+.catgories-detail form .form-group:last-child {
+    position: static !important;
+}
+
+
+.transfer .css-1s2u09g-control {
+    max-width: 100%;
+}
+
+.confirmed-booking h2 {
+    color: var(--title-color);
+    font-size: 24px;
+    font-family: var(--bold);
+    margin-bottom: 20px;
+}
+
+.confirmed-booking p {
+    color: #757578;
+    font-family: var(--semibold);
+    font-size: 16px;
+}
+
+.confirmed-booking .cmn-btn {
+    width: auto !important;
+    padding: 15px 50px;
+}
+
+.confirmed-booking {
+    max-width: 400px !important;
+}
+
+
+
+.hotel-details-modal-inner h6 {
+    font-size: 16px;
+    font-family: var(--semibold);
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.hotel-details-modal-inner > div {
+    padding: 17px 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+}
+
+.hotel-details-modal-inner p {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-family: var(--semibold);
+}
+
+.hotel-details-modal-inner h5 {
+    color: var(--title-color);
+    font-size: 12px;
+    font-family: var(--semibold);
+}
+
+.hotel-booking-number h6 {
+    font-size: 16px;
+    font-family: var(--semibold);
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.hotel-booking-details-modal .hotel-details-modal-inner {
+    margin-bottom: 30px;
+}
+
+.hotel-booking-details-modal .hotel-details-modal-inner:last-child {
+    margin-bottom: 0;
+}
+
+.hotel-details-modal-inner > div > div:last-child h6 {
+    margin-bottom: 0;
+}
+
+.cmn-form.transfer-detail-main-wrapper.hotel-wrapper{
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+
+/* -----transferss-detail-list--css-- */
+.transferss-detail-list{
+    z-index: 99 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+RESPONSIVE CSS
+*/
+
+@media only screen and (max-width: 1400px) {
+    .mobile-number-wrap {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .transfer-icon-wrap {
+        width: 100%;
+        max-width: 25px;
+        height: 25px;
+    }
+} 
+
+@media only screen and (max-width: 1200px) {
+    .transfer-inner-wrap .transfer-lists {
+        border: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .cancellation-policy-main {
+        margin-top: 25px !important;
+    }
+
+    .cancellation-policy-wrap .cancellation-policy-inner {
+        flex-basis: 45%;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .transfer-wrap .total-availabity {
+        text-align: left !important;
+        margin-top: 10px;
+    }
+
+    .cancellation-policy-wrap .cancellation-policy-inner {
+        flex-basis: 42%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .cancellation-policy-wrap .cancellation-policy-inner {
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .cancellation-policy-wrap .cancellation-policy-inner:last-child {
+        margin-bottom: 0;
+    }
+    .transfer-icon-wrap {
+        width: 100%;
+        max-width: 25px;
+        height: 25px;
+    }
+    .add-pickup-txt{
+        margin-top: 20px;
+    }
+}
